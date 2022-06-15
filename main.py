@@ -37,7 +37,7 @@ while True:
     cv2.imshow("Video",img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-    time.sleep(0.5)
+    time.sleep(0.1)
 
 video.release()
 cv2.destroyAllWindows()
