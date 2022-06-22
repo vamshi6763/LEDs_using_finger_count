@@ -2,14 +2,16 @@
 
 This Experiment is used to integrate python program with arduino using serial communication.
 
-Packages required : opencv, pyserial
+Packages required : opencv, pyserial, cvzone, mediapipe
 
 Steps for doing this Experiment:
 About main.py:
 1. Open any Python IDE, and use my main.py program.
-2. Install serial packages using the following command in terminal "pip install pyserial".
-3. Install openCv packages using the following command in terminal "pip install opencv-python".
-4. In line number 5, we have port='COM_'. for getting the serial port number, goto device manager of your system > ports > check your arduino port number.
+2. Install serial package using the following command in terminal "pip install pyserial".
+3. Install openCv package using the following command in terminal "pip install opencv-python".
+4. Install cvzone package using the following command in terminal "pip install cvzone".
+5. Install mediapipe package using the following command in terminal "pip install meidapipe".
+6. In line number 5, we have port='COM_'. for getting the serial port number, goto device manager of your system > ports > check your arduino port number.
 
 
 ![py](https://user-images.githubusercontent.com/101927825/173759396-3acc4995-b5dc-4b1f-94b7-b10b96be5f73.png)
